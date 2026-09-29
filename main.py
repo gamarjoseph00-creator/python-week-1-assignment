@@ -1,20 +1,6 @@
-# Store your details in variables
-name = "Gamar"
-age = 26
-favourite_language = "Python"
-goal = "build my own web applications"
-
-# Display them
-print("Hi, my name is", name)
-print("I am", age, "years old.")
-print("My favourite programming language is", favourite_language)
-print("My goal for this course is to", goal)
-
-
-
-# Hardcoded price and quantity values
-price = float(25)
-quantity = int(5)
+# Prompt the user for input and convert to appropriate data types
+price = float(input("Enter the price of the item: "))
+quantity = int(input("Enter the quantity: "))
 
 # Calculate the total cost
 total = price * quantity
